@@ -826,6 +826,7 @@ background: var(--secondary-text-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 11px 12px;
+    height: 40px;
 }
 
 .form-field textarea {
@@ -840,11 +841,8 @@ textarea {resize: none;}
 .license-agree {
     display: flex;
     align-items: center;
-    /* text-align: center; */
-    
+    justify-content: center;
     margin-bottom: 30px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
     
 }
 
@@ -860,13 +858,23 @@ textarea {resize: none;}
     line-height: 1.71;
 }
 
+.license-agree-text {
+    text-decoration-line: underline;
+    color: var(--accent-color);
+}
+
 .button-form {
+    display: flex;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
     font-size: 16px;
-    /* width: 200px;
-    height: 50px; */
     padding: 10px 55px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--secondary-text-color);
+    border: none;
     margin: 0 auto;
+    justify-content: center;
 }
